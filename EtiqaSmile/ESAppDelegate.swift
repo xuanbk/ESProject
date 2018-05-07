@@ -8,7 +8,10 @@
 
 import UIKit
 import CoreData
-
+/*
+ *Name : ESAppDelegate
+ *Description: define protocol listen to Login module interface
+ */
 @UIApplicationMain
 class ESAppDelegate: UIResponder, UIApplicationDelegate {
 

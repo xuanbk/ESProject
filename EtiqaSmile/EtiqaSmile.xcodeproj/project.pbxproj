@@ -12,7 +12,6 @@
 		B8160FAD209FFFFB00D0B09D /* EtiqaSmileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8160FAC209FFFFB00D0B09D /* EtiqaSmileTests.swift */; };
 		B8160FB8209FFFFB00D0B09D /* EtiqaSmileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8160FB7209FFFFB00D0B09D /* EtiqaSmileUITests.swift */; };
 		B8160FCE20A0011700D0B09D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8160FC820A0011600D0B09D /* LaunchScreen.storyboard */; };
-		B8160FCF20A0011700D0B09D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8160FCA20A0011600D0B09D /* Main.storyboard */; };
 		B8160FD020A0011700D0B09D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8160FCD20A0011700D0B09D /* Assets.xcassets */; };
 		B8160FD420A0014E00D0B09D /* ESAppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8160FD220A0014D00D0B09D /* ESAppDependencies.swift */; };
 		B8160FD520A0014E00D0B09D /* ESAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8160FD320A0014E00D0B09D /* ESAppDelegate.swift */; };
@@ -30,6 +29,7 @@
 		B816102220A001E500D0B09D /* ESConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816101C20A001E400D0B09D /* ESConstant.swift */; };
 		B816102320A001E500D0B09D /* EtiqaSmile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B816101E20A001E500D0B09D /* EtiqaSmile.xcdatamodeld */; };
 		B816102420A001E500D0B09D /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816102120A001E500D0B09D /* RootWireframe.swift */; };
+		B8A55C8320A0047A0015C7B1 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A55C8220A0047A0015C7B1 /* Login.storyboard */; };
 		E12786B3E98DFC31AD5D0B24 /* Pods_EtiqaSmileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2543A5B5F80398BB11005EF4 /* Pods_EtiqaSmileUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,7 +68,6 @@
 		B8160FB7209FFFFB00D0B09D /* EtiqaSmileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtiqaSmileUITests.swift; sourceTree = "<group>"; };
 		B8160FB9209FFFFB00D0B09D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8160FC920A0011600D0B09D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B8160FCB20A0011600D0B09D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8160FCD20A0011700D0B09D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8160FD120A0014C00D0B09D /* EtiqaSmile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EtiqaSmile-Bridging-Header.h"; sourceTree = "<group>"; };
 		B8160FD220A0014D00D0B09D /* ESAppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESAppDependencies.swift; sourceTree = "<group>"; };
@@ -87,6 +86,7 @@
 		B816101C20A001E400D0B09D /* ESConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESConstant.swift; sourceTree = "<group>"; };
 		B816101F20A001E500D0B09D /* EtiqaSmile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EtiqaSmile.xcdatamodel; sourceTree = "<group>"; };
 		B816102120A001E500D0B09D /* RootWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootWireframe.swift; sourceTree = "<group>"; };
+		B8A55C8220A0047A0015C7B1 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		CBE61D92E40875F636B64CE8 /* Pods-EtiqaSmileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtiqaSmileUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EtiqaSmileUITests/Pods-EtiqaSmileUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -203,7 +203,6 @@
 			isa = PBXGroup;
 			children = (
 				B8160FC820A0011600D0B09D /* LaunchScreen.storyboard */,
-				B8160FCA20A0011600D0B09D /* Main.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -237,6 +236,7 @@
 		B8160FFA20A001C900D0B09D /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				B8A55C7E20A004120015C7B1 /* StoryBoard */,
 				B8160FFB20A001C900D0B09D /* Module Interface */,
 				B8160FFD20A001C900D0B09D /* Service */,
 				B8160FFF20A001C900D0B09D /* Application Logic */,
@@ -354,6 +354,14 @@
 				B816102120A001E500D0B09D /* RootWireframe.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		B8A55C7E20A004120015C7B1 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				B8A55C8220A0047A0015C7B1 /* Login.storyboard */,
+			);
+			path = StoryBoard;
 			sourceTree = "<group>";
 		};
 		FB487CED0309E1AF4E73A52F /* Pods */ = {
@@ -479,7 +487,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8160FCF20A0011700D0B09D /* Main.storyboard in Resources */,
+				B8A55C8320A0047A0015C7B1 /* Login.storyboard in Resources */,
 				B8160FCE20A0011700D0B09D /* LaunchScreen.storyboard in Resources */,
 				B8160FD020A0011700D0B09D /* Assets.xcassets in Resources */,
 			);
@@ -678,14 +686,6 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		B8160FCA20A0011600D0B09D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B8160FCB20A0011600D0B09D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -740,7 +740,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -794,7 +794,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -811,6 +811,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/EtiqaSmile/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -832,6 +833,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/EtiqaSmile/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

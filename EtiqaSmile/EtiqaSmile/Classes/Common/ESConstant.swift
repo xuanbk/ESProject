@@ -7,3 +7,5 @@
 //
 
 import Foundation
+
+let STORY_BOARD_LOGIN_NAME = "Login"
