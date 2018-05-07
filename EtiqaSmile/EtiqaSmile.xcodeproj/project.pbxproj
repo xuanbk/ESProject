@@ -1,0 +1,984 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C228BA55FCE398470FA4822 /* Pods_EtiqaSmileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942AEB419B4A7F265F7AD416 /* Pods_EtiqaSmileTests.framework */; };
+		893AF5CEF2A65CFBD3D32A76 /* Pods_EtiqaSmile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8EF88A8F081CFC2AB17F04 /* Pods_EtiqaSmile.framework */; };
+		B8160FAD209FFFFB00D0B09D /* EtiqaSmileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8160FAC209FFFFB00D0B09D /* EtiqaSmileTests.swift */; };
+		B8160FB8209FFFFB00D0B09D /* EtiqaSmileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8160FB7209FFFFB00D0B09D /* EtiqaSmileUITests.swift */; };
+		B8160FCE20A0011700D0B09D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8160FC820A0011600D0B09D /* LaunchScreen.storyboard */; };
+		B8160FCF20A0011700D0B09D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8160FCA20A0011600D0B09D /* Main.storyboard */; };
+		B8160FD020A0011700D0B09D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8160FCD20A0011700D0B09D /* Assets.xcassets */; };
+		B8160FD420A0014E00D0B09D /* ESAppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8160FD220A0014D00D0B09D /* ESAppDependencies.swift */; };
+		B8160FD520A0014E00D0B09D /* ESAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8160FD320A0014E00D0B09D /* ESAppDelegate.swift */; };
+		B816101120A001C900D0B09D /* ESLoginModuleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8160FFC20A001C900D0B09D /* ESLoginModuleInterface.swift */; };
+		B816101220A001C900D0B09D /* ESLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8160FFE20A001C900D0B09D /* ESLoginService.swift */; };
+		B816101320A001C900D0B09D /* ESLoginAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816100220A001C900D0B09D /* ESLoginAPIDataManager.swift */; };
+		B816101420A001C900D0B09D /* ESLoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816100420A001C900D0B09D /* ESLoginInteractor.swift */; };
+		B816101520A001C900D0B09D /* ESLoginTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816100720A001C900D0B09D /* ESLoginTransition.swift */; };
+		B816101620A001C900D0B09D /* ESLoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816100920A001C900D0B09D /* ESLoginPresenter.swift */; };
+		B816101720A001C900D0B09D /* ESLoginWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816100B20A001C900D0B09D /* ESLoginWireframe.swift */; };
+		B816101820A001C900D0B09D /* ESLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816100D20A001C900D0B09D /* ESLoginViewController.swift */; };
+		B816101920A001C900D0B09D /* ESLoginFTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816100E20A001C900D0B09D /* ESLoginFTViewController.swift */; };
+		B816101A20A001C900D0B09D /* ESLoginFPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816100F20A001C900D0B09D /* ESLoginFPViewController.swift */; };
+		B816101B20A001C900D0B09D /* ESLoginViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816101020A001C900D0B09D /* ESLoginViewInterface.swift */; };
+		B816102220A001E500D0B09D /* ESConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816101C20A001E400D0B09D /* ESConstant.swift */; };
+		B816102320A001E500D0B09D /* EtiqaSmile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B816101E20A001E500D0B09D /* EtiqaSmile.xcdatamodeld */; };
+		B816102420A001E500D0B09D /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816102120A001E500D0B09D /* RootWireframe.swift */; };
+		E12786B3E98DFC31AD5D0B24 /* Pods_EtiqaSmileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2543A5B5F80398BB11005EF4 /* Pods_EtiqaSmileUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8160FA9209FFFFB00D0B09D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8160F89209FFFFA00D0B09D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8160F90209FFFFA00D0B09D;
+			remoteInfo = EtiqaSmile;
+		};
+		B8160FB4209FFFFB00D0B09D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8160F89209FFFFA00D0B09D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8160F90209FFFFA00D0B09D;
+			remoteInfo = EtiqaSmile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ED7F64F148E307FC63F46D4 /* Pods-EtiqaSmile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtiqaSmile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EtiqaSmile/Pods-EtiqaSmile.debug.xcconfig"; sourceTree = "<group>"; };
+		2543A5B5F80398BB11005EF4 /* Pods_EtiqaSmileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EtiqaSmileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8EF88A8F081CFC2AB17F04 /* Pods_EtiqaSmile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EtiqaSmile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5660835C85746EA8D766500F /* Pods-EtiqaSmile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtiqaSmile.release.xcconfig"; path = "Pods/Target Support Files/Pods-EtiqaSmile/Pods-EtiqaSmile.release.xcconfig"; sourceTree = "<group>"; };
+		8916C84BACC504327F798655 /* Pods-EtiqaSmileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtiqaSmileUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EtiqaSmileUITests/Pods-EtiqaSmileUITests.release.xcconfig"; sourceTree = "<group>"; };
+		942AEB419B4A7F265F7AD416 /* Pods_EtiqaSmileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EtiqaSmileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98EA874AB4DC47B4B681987E /* Pods-EtiqaSmileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtiqaSmileTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EtiqaSmileTests/Pods-EtiqaSmileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB41B219DAA48C05E3169E65 /* Pods-EtiqaSmileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtiqaSmileTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EtiqaSmileTests/Pods-EtiqaSmileTests.release.xcconfig"; sourceTree = "<group>"; };
+		B8160F91209FFFFA00D0B09D /* EtiqaSmile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EtiqaSmile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8160FA3209FFFFB00D0B09D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8160FA8209FFFFB00D0B09D /* EtiqaSmileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtiqaSmileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8160FAC209FFFFB00D0B09D /* EtiqaSmileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtiqaSmileTests.swift; sourceTree = "<group>"; };
+		B8160FAE209FFFFB00D0B09D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8160FB3209FFFFB00D0B09D /* EtiqaSmileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtiqaSmileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8160FB7209FFFFB00D0B09D /* EtiqaSmileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtiqaSmileUITests.swift; sourceTree = "<group>"; };
+		B8160FB9209FFFFB00D0B09D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8160FC920A0011600D0B09D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8160FCB20A0011600D0B09D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8160FCD20A0011700D0B09D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8160FD120A0014C00D0B09D /* EtiqaSmile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EtiqaSmile-Bridging-Header.h"; sourceTree = "<group>"; };
+		B8160FD220A0014D00D0B09D /* ESAppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESAppDependencies.swift; sourceTree = "<group>"; };
+		B8160FD320A0014E00D0B09D /* ESAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESAppDelegate.swift; sourceTree = "<group>"; };
+		B8160FFC20A001C900D0B09D /* ESLoginModuleInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESLoginModuleInterface.swift; sourceTree = "<group>"; };
+		B8160FFE20A001C900D0B09D /* ESLoginService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESLoginService.swift; sourceTree = "<group>"; };
+		B816100220A001C900D0B09D /* ESLoginAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESLoginAPIDataManager.swift; sourceTree = "<group>"; };
+		B816100420A001C900D0B09D /* ESLoginInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESLoginInteractor.swift; sourceTree = "<group>"; };
+		B816100720A001C900D0B09D /* ESLoginTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESLoginTransition.swift; sourceTree = "<group>"; };
+		B816100920A001C900D0B09D /* ESLoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESLoginPresenter.swift; sourceTree = "<group>"; };
+		B816100B20A001C900D0B09D /* ESLoginWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESLoginWireframe.swift; sourceTree = "<group>"; };
+		B816100D20A001C900D0B09D /* ESLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESLoginViewController.swift; sourceTree = "<group>"; };
+		B816100E20A001C900D0B09D /* ESLoginFTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESLoginFTViewController.swift; sourceTree = "<group>"; };
+		B816100F20A001C900D0B09D /* ESLoginFPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESLoginFPViewController.swift; sourceTree = "<group>"; };
+		B816101020A001C900D0B09D /* ESLoginViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESLoginViewInterface.swift; sourceTree = "<group>"; };
+		B816101C20A001E400D0B09D /* ESConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESConstant.swift; sourceTree = "<group>"; };
+		B816101F20A001E500D0B09D /* EtiqaSmile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EtiqaSmile.xcdatamodel; sourceTree = "<group>"; };
+		B816102120A001E500D0B09D /* RootWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootWireframe.swift; sourceTree = "<group>"; };
+		CBE61D92E40875F636B64CE8 /* Pods-EtiqaSmileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtiqaSmileUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EtiqaSmileUITests/Pods-EtiqaSmileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8160F8E209FFFFA00D0B09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893AF5CEF2A65CFBD3D32A76 /* Pods_EtiqaSmile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8160FA5209FFFFB00D0B09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C228BA55FCE398470FA4822 /* Pods_EtiqaSmileTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8160FB0209FFFFB00D0B09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12786B3E98DFC31AD5D0B24 /* Pods_EtiqaSmileUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4585DFFCB7149B84AD521A2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A8EF88A8F081CFC2AB17F04 /* Pods_EtiqaSmile.framework */,
+				942AEB419B4A7F265F7AD416 /* Pods_EtiqaSmileTests.framework */,
+				2543A5B5F80398BB11005EF4 /* Pods_EtiqaSmileUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8160F88209FFFFA00D0B09D = {
+			isa = PBXGroup;
+			children = (
+				B8160F93209FFFFA00D0B09D /* EtiqaSmile */,
+				B8160FD320A0014E00D0B09D /* ESAppDelegate.swift */,
+				B8160FD220A0014D00D0B09D /* ESAppDependencies.swift */,
+				B8160FAB209FFFFB00D0B09D /* EtiqaSmileTests */,
+				B8160FB6209FFFFB00D0B09D /* EtiqaSmileUITests */,
+				B8160F92209FFFFA00D0B09D /* Products */,
+				FB487CED0309E1AF4E73A52F /* Pods */,
+				4585DFFCB7149B84AD521A2C /* Frameworks */,
+				B8160FD120A0014C00D0B09D /* EtiqaSmile-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		B8160F92209FFFFA00D0B09D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8160F91209FFFFA00D0B09D /* EtiqaSmile.app */,
+				B8160FA8209FFFFB00D0B09D /* EtiqaSmileTests.xctest */,
+				B8160FB3209FFFFB00D0B09D /* EtiqaSmileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8160F93209FFFFA00D0B09D /* EtiqaSmile */ = {
+			isa = PBXGroup;
+			children = (
+				B8160FC620A0009F00D0B09D /* Support Files */,
+				B8160FC520A0009500D0B09D /* Classes */,
+			);
+			path = EtiqaSmile;
+			sourceTree = "<group>";
+		};
+		B8160FAB209FFFFB00D0B09D /* EtiqaSmileTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8160FAC209FFFFB00D0B09D /* EtiqaSmileTests.swift */,
+				B8160FAE209FFFFB00D0B09D /* Info.plist */,
+			);
+			path = EtiqaSmileTests;
+			sourceTree = "<group>";
+		};
+		B8160FB6209FFFFB00D0B09D /* EtiqaSmileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8160FB7209FFFFB00D0B09D /* EtiqaSmileUITests.swift */,
+				B8160FB9209FFFFB00D0B09D /* Info.plist */,
+			);
+			path = EtiqaSmileUITests;
+			sourceTree = "<group>";
+		};
+		B8160FC520A0009500D0B09D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B8160FF920A001AE00D0B09D /* Modules */,
+				B8160FF820A001A800D0B09D /* Common */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B8160FC620A0009F00D0B09D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8160FCC20A0011700D0B09D /* Resource */,
+				B8160FC720A0011600D0B09D /* Storyboard */,
+				B8160FA3209FFFFB00D0B09D /* Info.plist */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		B8160FC720A0011600D0B09D /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B8160FC820A0011600D0B09D /* LaunchScreen.storyboard */,
+				B8160FCA20A0011600D0B09D /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		B8160FCC20A0011700D0B09D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B8160FCD20A0011700D0B09D /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B8160FF820A001A800D0B09D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B816101C20A001E400D0B09D /* ESConstant.swift */,
+				B816101D20A001E500D0B09D /* Store */,
+				B816102020A001E500D0B09D /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B8160FF920A001AE00D0B09D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B8160FFA20A001C900D0B09D /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B8160FFA20A001C900D0B09D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B8160FFB20A001C900D0B09D /* Module Interface */,
+				B8160FFD20A001C900D0B09D /* Service */,
+				B8160FFF20A001C900D0B09D /* Application Logic */,
+				B816100520A001C900D0B09D /* User Interface */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B8160FFB20A001C900D0B09D /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+				B8160FFC20A001C900D0B09D /* ESLoginModuleInterface.swift */,
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		B8160FFD20A001C900D0B09D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B8160FFE20A001C900D0B09D /* ESLoginService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B8160FFF20A001C900D0B09D /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				B816100020A001C900D0B09D /* Manager */,
+				B816100320A001C900D0B09D /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		B816100020A001C900D0B09D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B816100120A001C900D0B09D /* API */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		B816100120A001C900D0B09D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B816100220A001C900D0B09D /* ESLoginAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		B816100320A001C900D0B09D /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B816100420A001C900D0B09D /* ESLoginInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		B816100520A001C900D0B09D /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				B816100620A001C900D0B09D /* Transition */,
+				B816100820A001C900D0B09D /* Presenter */,
+				B816100A20A001C900D0B09D /* Wireframe */,
+				B816100C20A001C900D0B09D /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		B816100620A001C900D0B09D /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				B816100720A001C900D0B09D /* ESLoginTransition.swift */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		B816100820A001C900D0B09D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B816100920A001C900D0B09D /* ESLoginPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B816100A20A001C900D0B09D /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				B816100B20A001C900D0B09D /* ESLoginWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		B816100C20A001C900D0B09D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B816100D20A001C900D0B09D /* ESLoginViewController.swift */,
+				B816100E20A001C900D0B09D /* ESLoginFTViewController.swift */,
+				B816100F20A001C900D0B09D /* ESLoginFPViewController.swift */,
+				B816101020A001C900D0B09D /* ESLoginViewInterface.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B816101D20A001E500D0B09D /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				B816101E20A001E500D0B09D /* EtiqaSmile.xcdatamodeld */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		B816102020A001E500D0B09D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B816102120A001E500D0B09D /* RootWireframe.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB487CED0309E1AF4E73A52F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0ED7F64F148E307FC63F46D4 /* Pods-EtiqaSmile.debug.xcconfig */,
+				5660835C85746EA8D766500F /* Pods-EtiqaSmile.release.xcconfig */,
+				98EA874AB4DC47B4B681987E /* Pods-EtiqaSmileTests.debug.xcconfig */,
+				AB41B219DAA48C05E3169E65 /* Pods-EtiqaSmileTests.release.xcconfig */,
+				CBE61D92E40875F636B64CE8 /* Pods-EtiqaSmileUITests.debug.xcconfig */,
+				8916C84BACC504327F798655 /* Pods-EtiqaSmileUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8160F90209FFFFA00D0B09D /* EtiqaSmile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8160FBC209FFFFB00D0B09D /* Build configuration list for PBXNativeTarget "EtiqaSmile" */;
+			buildPhases = (
+				B9FAFCD573B875B7437CB3DA /* [CP] Check Pods Manifest.lock */,
+				B8160F8D209FFFFA00D0B09D /* Sources */,
+				B8160F8E209FFFFA00D0B09D /* Frameworks */,
+				B8160F8F209FFFFA00D0B09D /* Resources */,
+				25D53FC2908EA09CB15BD92F /* [CP] Embed Pods Frameworks */,
+				F8A2E600111E3063B6255D28 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EtiqaSmile;
+			productName = EtiqaSmile;
+			productReference = B8160F91209FFFFA00D0B09D /* EtiqaSmile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8160FA7209FFFFB00D0B09D /* EtiqaSmileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8160FBF209FFFFB00D0B09D /* Build configuration list for PBXNativeTarget "EtiqaSmileTests" */;
+			buildPhases = (
+				5E1E51439545F6940103B2AB /* [CP] Check Pods Manifest.lock */,
+				B8160FA4209FFFFB00D0B09D /* Sources */,
+				B8160FA5209FFFFB00D0B09D /* Frameworks */,
+				B8160FA6209FFFFB00D0B09D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8160FAA209FFFFB00D0B09D /* PBXTargetDependency */,
+			);
+			name = EtiqaSmileTests;
+			productName = EtiqaSmileTests;
+			productReference = B8160FA8209FFFFB00D0B09D /* EtiqaSmileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8160FB2209FFFFB00D0B09D /* EtiqaSmileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8160FC2209FFFFB00D0B09D /* Build configuration list for PBXNativeTarget "EtiqaSmileUITests" */;
+			buildPhases = (
+				41BA68588304F461CB121F72 /* [CP] Check Pods Manifest.lock */,
+				B8160FAF209FFFFB00D0B09D /* Sources */,
+				B8160FB0209FFFFB00D0B09D /* Frameworks */,
+				B8160FB1209FFFFB00D0B09D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8160FB5209FFFFB00D0B09D /* PBXTargetDependency */,
+			);
+			name = EtiqaSmileUITests;
+			productName = EtiqaSmileUITests;
+			productReference = B8160FB3209FFFFB00D0B09D /* EtiqaSmileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8160F89209FFFFA00D0B09D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = ETIQA;
+				TargetAttributes = {
+					B8160F90209FFFFA00D0B09D = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+					B8160FA7209FFFFB00D0B09D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = B8160F90209FFFFA00D0B09D;
+					};
+					B8160FB2209FFFFB00D0B09D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = B8160F90209FFFFA00D0B09D;
+					};
+				};
+			};
+			buildConfigurationList = B8160F8C209FFFFA00D0B09D /* Build configuration list for PBXProject "EtiqaSmile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8160F88209FFFFA00D0B09D;
+			productRefGroup = B8160F92209FFFFA00D0B09D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8160F90209FFFFA00D0B09D /* EtiqaSmile */,
+				B8160FA7209FFFFB00D0B09D /* EtiqaSmileTests */,
+				B8160FB2209FFFFB00D0B09D /* EtiqaSmileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8160F8F209FFFFA00D0B09D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8160FCF20A0011700D0B09D /* Main.storyboard in Resources */,
+				B8160FCE20A0011700D0B09D /* LaunchScreen.storyboard in Resources */,
+				B8160FD020A0011700D0B09D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8160FA6209FFFFB00D0B09D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8160FB1209FFFFB00D0B09D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25D53FC2908EA09CB15BD92F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EtiqaSmile/Pods-EtiqaSmile-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/CoreStore/CoreStore.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreStore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EtiqaSmile/Pods-EtiqaSmile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41BA68588304F461CB121F72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EtiqaSmileUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E1E51439545F6940103B2AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EtiqaSmileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9FAFCD573B875B7437CB3DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EtiqaSmile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8A2E600111E3063B6255D28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EtiqaSmile/Pods-EtiqaSmile-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EtiqaSmile/Pods-EtiqaSmile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8160F8D209FFFFA00D0B09D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B816101420A001C900D0B09D /* ESLoginInteractor.swift in Sources */,
+				B8160FD520A0014E00D0B09D /* ESAppDelegate.swift in Sources */,
+				B816101B20A001C900D0B09D /* ESLoginViewInterface.swift in Sources */,
+				B816102320A001E500D0B09D /* EtiqaSmile.xcdatamodeld in Sources */,
+				B816102420A001E500D0B09D /* RootWireframe.swift in Sources */,
+				B816102220A001E500D0B09D /* ESConstant.swift in Sources */,
+				B816101920A001C900D0B09D /* ESLoginFTViewController.swift in Sources */,
+				B816101620A001C900D0B09D /* ESLoginPresenter.swift in Sources */,
+				B816101220A001C900D0B09D /* ESLoginService.swift in Sources */,
+				B8160FD420A0014E00D0B09D /* ESAppDependencies.swift in Sources */,
+				B816101A20A001C900D0B09D /* ESLoginFPViewController.swift in Sources */,
+				B816101320A001C900D0B09D /* ESLoginAPIDataManager.swift in Sources */,
+				B816101820A001C900D0B09D /* ESLoginViewController.swift in Sources */,
+				B816101720A001C900D0B09D /* ESLoginWireframe.swift in Sources */,
+				B816101520A001C900D0B09D /* ESLoginTransition.swift in Sources */,
+				B816101120A001C900D0B09D /* ESLoginModuleInterface.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8160FA4209FFFFB00D0B09D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8160FAD209FFFFB00D0B09D /* EtiqaSmileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8160FAF209FFFFB00D0B09D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8160FB8209FFFFB00D0B09D /* EtiqaSmileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8160FAA209FFFFB00D0B09D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8160F90209FFFFA00D0B09D /* EtiqaSmile */;
+			targetProxy = B8160FA9209FFFFB00D0B09D /* PBXContainerItemProxy */;
+		};
+		B8160FB5209FFFFB00D0B09D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8160F90209FFFFA00D0B09D /* EtiqaSmile */;
+			targetProxy = B8160FB4209FFFFB00D0B09D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8160FC820A0011600D0B09D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8160FC920A0011600D0B09D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B8160FCA20A0011600D0B09D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8160FCB20A0011600D0B09D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8160FBA209FFFFB00D0B09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8160FBB209FFFFB00D0B09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8160FBD209FFFFB00D0B09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ED7F64F148E307FC63F46D4 /* Pods-EtiqaSmile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/EtiqaSmile/Support Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.etiqa.EtiqaSmile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EtiqaSmile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8160FBE209FFFFB00D0B09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5660835C85746EA8D766500F /* Pods-EtiqaSmile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/EtiqaSmile/Support Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.etiqa.EtiqaSmile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EtiqaSmile-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B8160FC0209FFFFB00D0B09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98EA874AB4DC47B4B681987E /* Pods-EtiqaSmileTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EtiqaSmileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.etiqa.EtiqaSmileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EtiqaSmile.app/EtiqaSmile";
+			};
+			name = Debug;
+		};
+		B8160FC1209FFFFB00D0B09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB41B219DAA48C05E3169E65 /* Pods-EtiqaSmileTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EtiqaSmileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.etiqa.EtiqaSmileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EtiqaSmile.app/EtiqaSmile";
+			};
+			name = Release;
+		};
+		B8160FC3209FFFFB00D0B09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBE61D92E40875F636B64CE8 /* Pods-EtiqaSmileUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EtiqaSmileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.etiqa.EtiqaSmileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EtiqaSmile;
+			};
+			name = Debug;
+		};
+		B8160FC4209FFFFB00D0B09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8916C84BACC504327F798655 /* Pods-EtiqaSmileUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EtiqaSmileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.etiqa.EtiqaSmileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EtiqaSmile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8160F8C209FFFFA00D0B09D /* Build configuration list for PBXProject "EtiqaSmile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8160FBA209FFFFB00D0B09D /* Debug */,
+				B8160FBB209FFFFB00D0B09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8160FBC209FFFFB00D0B09D /* Build configuration list for PBXNativeTarget "EtiqaSmile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8160FBD209FFFFB00D0B09D /* Debug */,
+				B8160FBE209FFFFB00D0B09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8160FBF209FFFFB00D0B09D /* Build configuration list for PBXNativeTarget "EtiqaSmileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8160FC0209FFFFB00D0B09D /* Debug */,
+				B8160FC1209FFFFB00D0B09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8160FC2209FFFFB00D0B09D /* Build configuration list for PBXNativeTarget "EtiqaSmileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8160FC3209FFFFB00D0B09D /* Debug */,
+				B8160FC4209FFFFB00D0B09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B816101E20A001E500D0B09D /* EtiqaSmile.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B816101F20A001E500D0B09D /* EtiqaSmile.xcdatamodel */,
+			);
+			currentVersion = B816101F20A001E500D0B09D /* EtiqaSmile.xcdatamodel */;
+			path = EtiqaSmile.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B8160F89209FFFFA00D0B09D /* Project object */;
+}

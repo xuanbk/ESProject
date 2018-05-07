@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'EtiqaSmile' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'Alamofire'
+  pod 'CoreStore'
+  pod 'AlamofireObjectMapper'
+  pod 'ReachabilitySwift'
+  pod 'NVActivityIndicatorView'
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+  pod 'GooglePlacePicker'
+  # Pods for EtiqaSmile
+
+  target 'EtiqaSmileTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'EtiqaSmileUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
