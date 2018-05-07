@@ -8,7 +8,7 @@
 
 import Foundation
 /*
- *Name : ESLoginAPIDataManager
+ *Name : ESLoginViewInterface
  *Description: define class to manage services of Login module
  */
 protocol  ESLoginViewInterface {

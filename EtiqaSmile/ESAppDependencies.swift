@@ -18,6 +18,12 @@ final class ESAppDependencies: NSObject {
         super.init()
         configureDependencies()
     }
+    /*
+     *Name : showErrorLoginContentMessage
+     *Description: execute login api
+     *Input:
+     *Output:
+     */
     func installRootViewControllerIntoWindow(_ window: UIWindow) {
         loginWireframe.presentLoginInterfaceFromWindow(window)
     }
